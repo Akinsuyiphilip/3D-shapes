@@ -34,6 +34,9 @@ button {
   align-items: center;
   margin: 2rem 8rem;
 }
+.navbar .nav-logo {
+  margin-top: 1rem;
+}
 .navbar .links ul {
   display: flex;
   flex-direction: row;
@@ -86,6 +89,9 @@ section .headers .texts h2 {
 section .headers .texts h2 span {
   color: #8468f5;
 }
+section .headers .texts h2:hover {
+  filter: drop-shadow(7px 11px 15px rgba(0, 0, 0, 0.6));
+}
 section .headers .texts p {
   font-weight: 600;
   font-size: 20px;
@@ -112,7 +118,7 @@ section .headers .inputs .email-input {
   font-size: 1rem;
 }
 section .headers .inputs .email-input:focus {
-  outline: none;
+  outline: 0.1rem solid #8468f5;
 }
 section .headers .inputs .icons {
   position: absolute;
@@ -135,7 +141,7 @@ section .headers .inputs .icons input {
   padding-right: 0.5rem;
 }
 section .image-div {
-  margin-top: -4rem;
+  margin-top: 0.5rem;
 }
 section .icons-socials {
   position: absolute;
